@@ -1,4 +1,7 @@
+# <up-arrow> and <down-arrow> search history
 "\e[A": history-search-backward
 "\e[B": history-search-forward
+
+# <ctrl + delete> and <ctrl + backspace> to kill entire words
 "\C-H": backward-kill-word
 "\e[3;5~": kill-word
