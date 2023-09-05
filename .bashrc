@@ -116,5 +116,4 @@ if ! shopt -oq posix; then
   fi
 fi
 
-alias lg='"log --graph --pretty=format:%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset --abbrev-commit --date=relative"'
 alias config='/usr/bin/git --git-dir=/home/liam/dotfiles/ --work-tree=/home/liam'
