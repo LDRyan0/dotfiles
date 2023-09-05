@@ -5,3 +5,16 @@
 # <ctrl + delete> and <ctrl + backspace> to kill entire words
 "\C-H": backward-kill-word
 "\e[3;5~": kill-word
+
+# colors to indicate file types with completion
+set colored-stats On
+
+# list options instead of ringing bell if completion ambiguous
+set show-all-if-ambiguous On
+
+# list options if no partial completion can be made
+set show-all-if-unmodified
+
+# nicer display of completion options with long filenames
+set completion-prefix-display-length 5
+
