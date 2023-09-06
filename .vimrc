@@ -8,7 +8,7 @@ set shiftwidth=2
 set number
 
 " don't let cursor scroll below/above N lines 
-set scrolloff=5
+set scrolloff=8
 
 " highlighting when searching
 set incsearch
