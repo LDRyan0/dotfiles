@@ -16,5 +16,5 @@ set show-all-if-ambiguous On
 set show-all-if-unmodified
 
 # nicer display of completion options with long filenames
-set completion-prefix-display-length 5
+set completion-prefix-display-length 3
 
