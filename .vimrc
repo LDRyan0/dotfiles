@@ -18,6 +18,7 @@ set showmatch
 " color scheme and cursor line highlighting
 colorscheme desert
 set cursorline
+set cursorlineopt=both
 hi CursorLine term=bold cterm=bold ctermbg=235
 hi CursorLineNr term=bold cterm=bold ctermbg=235
 
