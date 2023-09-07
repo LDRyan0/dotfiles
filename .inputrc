@@ -2,6 +2,10 @@
 "\e[A": history-search-backward
 "\e[B": history-search-forward
 
+# <ctrl + left> and <ctrl + right> move cursor over word
+"\e[5C": forward-word
+"\e[5D": backward-word
+
 # <ctrl + delete> and <ctrl + backspace> to kill entire words
 "\C-H": backward-kill-word
 "\e[3;5~": kill-word
