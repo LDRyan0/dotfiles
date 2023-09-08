@@ -30,8 +30,8 @@ set showmatch
 colorscheme desert
 set cursorline
 "set cursorlineopt=both
-hi CursorLine term=bold cterm=bold ctermbg=235
-hi CursorLineNr term=bold cterm=bold ctermbg=235
+hi CursorLine cterm=none ctermbg=235
+hi CursorLineNr cterm=bold ctermbg=235
 
 "<Ctrl-l> redraws the screen and removes any search highlighting.
 nnoremap <silent> <C-l> :nohl<CR><C-l>
