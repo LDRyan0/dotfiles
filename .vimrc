@@ -2,10 +2,21 @@
 set visualbell
 set t_vb=
 
-set tabstop=2
-set shiftwidth=2
+set tabstop=4
+set shiftwidth=4
+
+" be smart about when to use expandtab
+let _curfile = expand("%:t")
+if _curfile =~ "Makefile" || _curfile =~ "makefile" || _curfile =~ ".*\.mk"
+set noexpandtab
+else
+set expandtab
+set tabstop=4
+set shiftwidth=4
+endif
 
 set number
+set relativenumber
 
 " don't let cursor scroll below/above N lines 
 set scrolloff=8
@@ -18,7 +29,7 @@ set showmatch
 " color scheme and cursor line highlighting
 colorscheme desert
 set cursorline
-set cursorlineopt=both
+"set cursorlineopt=both
 hi CursorLine term=bold cterm=bold ctermbg=235
 hi CursorLineNr term=bold cterm=bold ctermbg=235
 
