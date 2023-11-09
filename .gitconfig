@@ -5,6 +5,7 @@
 [alias]
 	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
 	last = log -1 HEAD --stat
+    patch = commit --amend --no-edit --date=now
 	st = status -sb
 
 [core]
