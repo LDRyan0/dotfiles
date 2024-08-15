@@ -1,15 +1,40 @@
 [user]
-	email = liamdryan01@gmail.com
-	name = Liam Ryan
+    name = Liam Ryan
+    email = liamdryan01@gmail.com
 
 [alias]
-	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
-	last = log -1 HEAD --stat
-    patch = commit --amend --no-edit --date=now
-	st = status -sb
+    a = add
+    A = add -A
+    acm = !git add -A && git commit -m
+    b = branch
+    bd = branch -d
+    bD = branch -D
+    bm = branch -m
+    bvv = branch -vv
+    c = commit
+    ca = commit --amend
+    cm = commit -m 
+    cp = cherry-pick
+    ch = checkout
+    chb = checkout -b
+    d = diff
+    dc = diff --cached
+    dn = diff --stat
+    ds = diff --shortstat
+    last = log -1 HEAD --stat
+    l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+    p = push
+    pu = push --set-upstream 
+    patch = !git add -A && git commit --amend --no-edit
+    r = rebase
+    ra = rebase --abort
+    rc = rebase --continue
+    s = show
+    st = status -sb
 
 [core]
-	editor = vim
+    editor = vim
 
 [init]
-	defaultBranch = main
+    defaultBranch = main
